@@ -1,0 +1,37 @@
+# Herramientas de agentes (solo locales)
+.agents/
+_bmad/
+.cursor/
+.claude/
+.codex/
+CLAUDE.md
+AGENTS.md
+.cursorrules
+
+# Dependencias
+node_modules/
+
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# Sistema y editores
+.DS_Store
+*.log
+.vscode/
+.idea/
